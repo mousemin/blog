@@ -114,7 +114,6 @@ openssl genrsa -out ${File}.key 2048
 openssl req -new -key ${File}.key -out ${File}.csr -days 3650
 
 # 生成ext.ini
-# 生成ext.ini
 echo "basicConstraints = CA:FALSE" > ${File}_ext.ini
 echo "keyUsage = nonRepudiation, digitalSignature, keyEncipherment" >> ${File}_ext.ini
 echo "subjectAltName = @alt_names" >> ${File}_ext.ini
