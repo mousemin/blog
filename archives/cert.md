@@ -6,6 +6,9 @@ Tags:
 Categories:
 DisableComments: false
 ---
+CA(Certificate Authority)被称为证书授权中心，是数字证书发放和管理的机构。
+
+根证书是CA认证中心给自己颁发的证书,是信任链的起始点。安装根证书意味着对这个CA认证中心的信任。
 
 ### 生成CA证书私钥
 
